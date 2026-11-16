@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>POCAVERSE 포카버스 — 포토카드의 모든 세계</title>
+<meta name="description" content="포카버스(POCAVERSE)는 K-POP·애니메이션 포토카드, 캐릭터 굿즈, 포토카드 판매기기를 연결하는 팬덤 컬렉팅 브랜드입니다.">
+<meta name="theme-color" content="#0b0b10">
+<meta property="og:type" content="website">
+<meta property="og:title" content="POCAVERSE — Fandom Universe">
+<meta property="og:description" content="K-POP · ANIME · PHOTOCARD · GOODS · VENDING MACHINE">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;800&family=Noto+Sans+SC:wght@400;600;800&display=swap">
+<link rel="preload" as="image" href="assets/img/hero-concert.jpg">
+<link rel="stylesheet" href="assets/style.css">
+<script>document.documentElement.classList.remove('no-js')</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></symbol>
+  <symbol id="i-store" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><rect x="8" y="5.5" width="8" height="7" rx="1"/><path d="M9 16.5h6M9 19h2"/></symbol>
+  <symbol id="i-pay" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6.5 15h4"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M6 16v-4M11 16V8M16 16v-6M20 16V5"/></symbol>
+  <symbol id="i-brush" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 19.5 9.5 10 19H5v-5z"/><path d="m12.5 6.5 5 5"/></symbol>
+</svg>
+
+<div class="topbar" data-i18n="top">POCAVERSE — K-POP · ANIME · PHOTOCARD · GOODS · MACHINE</div>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="wrap bar">
+    <a href="#top" class="logo" aria-label="POCAVERSE home"><b>pocaverse</b><small>FANDOM UNIVERSE</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#brand" data-i18n="nav.brand">브랜드</a>
+      <a href="#machine" data-i18n="nav.machine">판매기기</a>
+      <a href="#photocard" data-i18n="nav.photocard">포토카드</a>
+      <a href="#goods" data-i18n="nav.goods">굿즈</a>
+      <a href="#partner" data-i18n="nav.partner">사업제휴</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ko" aria-pressed="true">KR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" data-lang="ja" aria-pressed="false">JP</button>
+      <button type="button" data-lang="zh" aria-pressed="false">CN</button>
+    </div>
+    <a href="#contact" class="btn hd-cta"><span data-i18n="nav.contact">문의하기</span><svg><use href="#i-arrow"/></svg></a>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="drawer"><span></span></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <a href="#brand"><b data-i18n="nav.brand">브랜드</b><span>01</span></a>
+    <a href="#machine"><b data-i18n="nav.machine">판매기기</b><span>02</span></a>
+    <a href="#photocard"><b data-i18n="nav.photocard">포토카드</b><span>03</span></a>
+    <a href="#goods"><b data-i18n="nav.goods">굿즈</b><span>04</span></a>
+    <a href="#partner"><b data-i18n="nav.partner">사업제휴</b><span>05</span></a>
+    <a href="#contact"><b data-i18n="nav.contact">문의하기</b><span>06</span></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="ko" aria-pressed="true">KR</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-lang="ja" aria-pressed="false">JP</button>
+    <button type="button" data-lang="zh" aria-pressed="false">CN</button>
+  </div>
+  <a href="#contact" class="btn btn-lime"><span data-i18n="hero.cta2">비즈니스 문의</span><svg><use href="#i-arrow"/></svg></a>
+</div>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-bg"><img src="assets/img/hero-concert.jpg" alt="" fetchpriority="high"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <span class="eyebrow rv" data-i18n="hero.eyebrow">The World of Collecting</span>
+      <h1 class="h-xl kw rv d1" data-i18n-html="hero.title">좋아하는 모든 순간,<br><em>포카버스</em>에서.</h1>
+      <p class="lead rv d2" data-i18n="hero.lead">K-POP과 애니메이션 포토카드부터 캐릭터 굿즈, 포토카드 판매기기까지. 팬덤과 비즈니스를 하나로 잇는 새로운 컬렉팅 세계.</p>
+      <div class="hero-cta rv d3">
+        <a href="#brand" class="btn btn-lime"><span data-i18n="hero.cta1">포카버스 알아보기</span><svg><use href="#i-arrow"/></svg></a>
+        <a href="#contact" class="btn btn-ghost"><span data-i18n="hero.cta2">비즈니스 문의</span><svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="hero-tags rv d3">
+        <span class="tag">PHOTO CARD</span><span class="tag">VENDING MACHINE</span><span class="tag">CHARACTER GOODS</span>
+      </div>
+    </div>
+    <div class="stack rv d2" id="stack" aria-hidden="true">
+      <div class="pc"><img src="assets/img/seoul-neon.jpg" alt=""><div class="pc-top"><span>POCAVERSE</span><i>✦</i></div><div class="pc-meta"><div><small>SEOUL NIGHT</small><b>K-CULTURE</b></div><span class="pc-no">No.024</span></div></div>
+      <div class="pc"><img src="assets/img/concert-tall.jpg" alt=""><div class="pc-top"><span>POCAVERSE</span><i>✦</i></div><div class="pc-meta"><div><small>LIVE EDITION</small><b>STAGE</b></div><span class="pc-no">No.001</span></div></div>
+      <div class="pc"><img src="assets/img/holo1.jpg" alt=""><div class="pc-top"><span>POCAVERSE</span><i>✦</i></div><div class="pc-meta"><div><small>HOLOGRAM</small><b>PRISM</b></div><span class="pc-no">No.108</span></div></div>
+      <div class="badge">
+        <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><text font-family="Outfit" font-weight="800" font-size="11.5" letter-spacing="3.2" fill="#0b0b10"><textPath href="#circ">POCA · PLAY · COLLECT · POCA · PLAY · COLLECT ·</textPath></text></svg>
+        <b>✦</b>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot">
+    <div class="wrap">
+      <a href="#machine"><span>01</span><b data-i18n="nav.machine">판매기기</b><svg><use href="#i-right"/></svg></a>
+      <a href="#photocard"><span>02</span><b data-i18n="nav.photocard">포토카드</b><svg><use href="#i-right"/></svg></a>
+      <a href="#goods"><span>03</span><b data-i18n="nav.goods">굿즈</b><svg><use href="#i-right"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>K-POP</span><span>ANIME</span><span>PHOTOCARD</span><span>CHARACTER GOODS</span><span>VENDING MACHINE</span><span>POP-UP</span>
+    <span>K-POP</span><span>ANIME</span><span>PHOTOCARD</span><span>CHARACTER GOODS</span><span>VENDING MACHINE</span><span>POP-UP</span>
+  </div>
+</div>
+
+<!-- ================= BRAND ================= -->
+<section class="sec" id="brand">
+  <div class="wrap brand-grid">
+    <div>
+      <span class="sec-num rv">01 — BRAND STORY</span>
+      <h2 class="h-lg kw rv d1" style="margin-top:20px" data-i18n-html="brand.title">팬심이 모이는 곳,<br>그곳이 <span class="hl-lav">포카버스</span>입니다.</h2>
+      <div class="brand-eq rv d2"><span>POCA</span><i>+</i><span>UNIVERSE</span><i>=</i><em>POCAVERSE</em></div>
+      <p class="lead rv d2" data-i18n="brand.lead">포카버스는 포토카드(POCA)와 세계(UNIVERSE)를 합친 이름입니다. 좋아하는 콘텐츠를 소장하고 나누는 즐거움에서 출발해, 포토카드·굿즈·판매기기를 하나의 경험으로 연결하는 팬덤 라이프스타일 브랜드입니다.</p>
+      <div class="values">
+        <div class="value rv"><span>COLLECT</span><b data-i18n="brand.v1t">소장의 즐거움</b><p data-i18n="brand.v1d">한 장의 카드에 담긴 순간을 오래 간직합니다.</p></div>
+        <div class="value rv d1"><span>PLAY</span><b data-i18n="brand.v2t">뽑는 설렘</b><p data-i18n="brand.v2d">기기 앞에서 시작되는 랜덤 컬렉팅 경험.</p></div>
+        <div class="value rv d2"><span>CONNECT</span><b data-i18n="brand.v3t">팬과 비즈니스</b><p data-i18n="brand.v3d">팬덤 문화를 공간과 사업으로 확장합니다.</p></div>
+      </div>
+    </div>
+    <div class="collage rv d1">
+      <figure><img src="assets/img/seoul-neon.jpg" alt="Seoul neon street" loading="lazy"><figcaption>K-CULTURE</figcaption></figure>
+      <figure><img src="assets/img/fans-gacha.jpg" alt="Fans at capsule machines" loading="lazy"><figcaption>FANDOM</figcaption></figure>
+      <figure><img src="assets/img/albums.jpg" alt="Album and collectible wall" loading="lazy"><figcaption>COLLECTION</figcaption></figure>
+      <div class="sticker">FANDOM UNIVERSE ✦</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BUSINESS OVERVIEW ================= -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow dark rv">What we connect</span>
+        <h2 class="h-lg kw rv d1" data-i18n-html="biz.title">세 가지 사업으로<br>하나의 세계를 만듭니다.</h2>
+      </div>
+      <p class="lead rv d2" data-i18n="biz.lead">하드웨어와 콘텐츠, 상품을 함께 다루기 때문에 기획부터 운영까지 한 번에 연결할 수 있습니다.</p>
+    </div>
+    <div class="biz">
+      <a href="#machine" class="biz-card rv"><img src="assets/img/machine-blue.jpg" alt="" loading="lazy"><span class="n">01 / HARDWARE</span><span class="go"><svg><use href="#i-arrow"/></svg></span><h3 data-i18n="biz.c1t">포토카드 판매기기</h3><p data-i18n="biz.c1d">매장·팝업·행사 어디서든 운영하는 무인 판매 솔루션</p></a>
+      <a href="#photocard" class="biz-card rv d1"><img src="assets/img/polaroid.jpg" alt="" loading="lazy"><span class="n">02 / PHOTOCARD</span><span class="go"><svg><use href="#i-arrow"/></svg></span><h3 data-i18n="biz.c2t">K-POP · 애니 포토카드</h3><p data-i18n="biz.c2d">테마와 컬렉션으로 기획하는 다양한 포토카드 상품</p></a>
+      <a href="#goods" class="biz-card rv d2"><img src="assets/img/goods-plush.jpg" alt="" loading="lazy"><span class="n">03 / MERCHANDISE</span><span class="go"><svg><use href="#i-arrow"/></svg></span><h3 data-i18n="biz.c3t">캐릭터 · 팬덤 굿즈</h3><p data-i18n="biz.c3d">키링·인형·아크릴 등 소장 가치를 높이는 팬덤 아이템</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MACHINE ================= -->
+<section class="sec on-dark" id="machine">
+  <div class="wrap">
+    <div class="machine-grid">
+      <div class="machine-visual rv">
+        <img src="assets/img/hero.jpg" alt="Photocard vending machines" loading="lazy">
+        <span class="chip">UNMANNED · 24/7</span>
+        <div class="panel">
+          <div><span>PAYMENT</span><b data-i18n="mc.p1">간편결제</b></div>
+          <div><span>STOCK</span><b data-i18n="mc.p2">원격 관리</b></div>
+          <div><span>DESIGN</span><b data-i18n="mc.p3">맞춤 랩핑</b></div>
+        </div>
+      </div>
+      <div>
+        <span class="sec-num rv">02 — VENDING MACHINE</span>
+        <h2 class="h-lg kw rv d1" style="margin-top:20px" data-i18n-html="mc.title">어디든 열리는<br><span class="hl-lime">포토카드 스토어.</span></h2>
+        <p class="lead rv d2" style="margin-top:24px" data-i18n="mc.lead">포카버스 판매기기는 공간만 있으면 바로 운영할 수 있는 무인 포토카드 스토어입니다. 매장의 체류 시간을 늘리고, 팝업과 행사에서는 그 자체로 콘텐츠가 됩니다.</p>
+        <div class="feats rv d2">
+          <div class="feat"><div class="ic"><svg><use href="#i-store"/></svg></div><b data-i18n="mc.f1t">무인 운영</b><p data-i18n="mc.f1d">별도 인력 없이 상시 판매가 가능한 구조</p></div>
+          <div class="feat"><div class="ic"><svg><use href="#i-pay"/></svg></div><b data-i18n="mc.f2t">간편한 결제</b><p data-i18n="mc.f2d">카드·간편결제 등 다양한 결제 방식 대응</p></div>
+          <div class="feat"><div class="ic"><svg><use href="#i-chart"/></svg></div><b data-i18n="mc.f3t">재고·매출 관리</b><p data-i18n="mc.f3d">판매 현황과 재고를 원격으로 확인</p></div>
+          <div class="feat"><div class="ic"><svg><use href="#i-brush"/></svg></div><b data-i18n="mc.f4t">브랜드 맞춤 디자인</b><p data-i18n="mc.f4d">공간과 IP에 맞춘 외관 랩핑·UI 구성</p></div>
+        </div>
+        <a href="#contact" class="btn btn-lime rv d3" data-type="machine"><span data-i18n="mc.cta">판매기기 도입 상담</span><svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="machine-strip">
+      <figure class="rv"><img src="assets/img/machine-aisle.jpg" alt="" loading="lazy"><figcaption data-i18n="mc.s1">매장형 · 존 구성</figcaption></figure>
+      <figure class="rv d1"><img src="assets/img/machine-wall.jpg" alt="" loading="lazy"><figcaption data-i18n="mc.s2">다단 배치</figcaption></figure>
+      <figure class="rv d2"><img src="assets/img/fans-gacha.jpg" alt="" loading="lazy"><figcaption data-i18n="mc.s3">팬 체험 공간</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PHOTOCARD ================= -->
+<section class="sec pc-sec" id="photocard">
+  <div class="wrap">
+    <div class="pc-top-grid">
+      <div class="pc-photo rv"><img src="assets/img/polaroid.jpg" alt="Hand holding an instant photo card" loading="lazy"><span class="label">PHOTO EDITION</span></div>
+      <div>
+        <span class="sec-num rv">03 — PHOTOCARD</span>
+        <h2 class="h-lg kw rv d1" style="margin-top:20px" data-i18n-html="pc.title">한 장에 담는<br>가장 빛나는 순간.</h2>
+        <p class="lead rv d2" style="margin-top:24px" data-i18n="pc.lead">K-POP, 애니메이션, 캐릭터 IP까지 테마별 컬렉션으로 기획합니다. 홀로그램·글로시·매트 등 후가공으로 소장 가치를 더하고, 판매기기와 연계한 랜덤 구성까지 설계합니다.</p>
+        <div class="finish rv d3">
+          <span class="f1"><i></i>Hologram</span>
+          <span class="f2"><i></i>Glossy</span>
+          <span class="f3"><i></i>Matte</span>
+          <span class="f4"><i></i>Custom</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="theme-tabs rv" role="tablist" aria-label="Photocard theme">
+      <button type="button" role="tab" aria-selected="true" data-filter="all" data-i18n="pc.tAll">전체</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="kpop">K-POP</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="anime" data-i18n="pc.tAnime">애니메이션</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="char" data-i18n="pc.tChar">캐릭터</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="custom" data-i18n="pc.tCustom">커스텀</button>
+    </div>
+    <div class="rail-wrap rv d1">
+      <div class="rail" id="rail">
+        <div class="pc" data-theme="kpop"><img src="assets/img/concert-tall.jpg" alt="" loading="lazy"><div class="pc-top"><span>K-POP</span><i>✦</i></div><div class="pc-meta"><div><small>LIVE EDITION</small><b>STAGE</b></div><span class="pc-no">No.001</span></div></div>
+        <div class="pc" data-theme="kpop"><img src="assets/img/seoul-neon.jpg" alt="" loading="lazy"><div class="pc-top"><span>K-POP</span><i>✦</i></div><div class="pc-meta"><div><small>SEOUL NIGHT</small><b>CITY</b></div><span class="pc-no">No.024</span></div></div>
+        <div class="pc" data-theme="anime"><img src="assets/img/holo1.jpg" alt="" loading="lazy"><div class="pc-top"><span>ANIME</span><i>✦</i></div><div class="pc-meta"><div><small>HOLOGRAM</small><b>PRISM</b></div><span class="pc-no">No.108</span></div></div>
+        <div class="pc grad-a" data-theme="anime"><div class="pc-art">✦</div><div class="pc-top" style="color:#0b0b10"><span>ANIME</span><i>✦</i></div><div class="pc-meta" style="color:#0b0b10;text-shadow:none"><div><small>PASTEL DREAM</small><b>SERIES A</b></div><span class="pc-no">No.052</span></div></div>
+        <div class="pc" data-theme="char"><img src="assets/img/goods-plush.jpg" alt="" loading="lazy"><div class="pc-top"><span>CHARACTER</span><i>✦</i></div><div class="pc-meta"><div><small>FRIENDS</small><b>BUDDY</b></div><span class="pc-no">No.077</span></div></div>
+        <div class="pc grad-b" data-theme="char"><div class="pc-art">poca</div><div class="pc-top" style="color:#0b0b10"><span>CHARACTER</span><i>✦</i></div><div class="pc-meta" style="color:#0b0b10;text-shadow:none"><div><small>FRESH LIME</small><b>MASCOT</b></div><span class="pc-no">No.090</span></div></div>
+        <div class="pc" data-theme="custom"><img src="assets/img/goods-wall.jpg" alt="" loading="lazy"><div class="pc-top"><span>CUSTOM</span><i>✦</i></div><div class="pc-meta"><div><small>MY COLLECTION</small><b>MEMORY</b></div><span class="pc-no">No.130</span></div></div>
+        <div class="pc grad-c" data-theme="custom"><div class="pc-art">P✦</div><div class="pc-top"><span>CUSTOM</span><i>✦</i></div><div class="pc-meta"><div><small>BRAND COLLAB</small><b>YOUR IP</b></div><span class="pc-no">No.200</span></div></div>
+        <div class="pc" data-theme="custom"><img src="assets/img/holo2.jpg" alt="" loading="lazy"><div class="pc-top"><span>CUSTOM</span><i>✦</i></div><div class="pc-meta"><div><small>SPECIAL FOIL</small><b>FOIL</b></div><span class="pc-no">No.201</span></div></div>
+      </div>
+      <div class="rail-ctrl">
+        <button type="button" data-dir="-1" aria-label="Previous"><svg><use href="#i-left"/></svg></button>
+        <button type="button" data-dir="1" aria-label="Next"><svg><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GOODS ================= -->
+<section class="sec" id="goods" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="sec-num rv">04 — CHARACTER GOODS</span>
+        <h2 class="h-lg kw rv d1" data-i18n-html="gd.title">작아도 확실한<br>팬심의 표현.</h2>
+      </div>
+      <p class="lead rv d2" data-i18n="gd.lead">포토카드와 함께 즐기는 캐릭터·팬덤 굿즈를 기획하고 공급합니다. 소량 테스트부터 행사용 대량 공급까지 유연하게 대응합니다.</p>
+    </div>
+    <div class="bento">
+      <div class="tile t1 rv"><img src="assets/img/goods-wall.jpg" alt="" loading="lazy"><small>KEYRING · CHARM</small><b data-i18n="gd.t1">키링 · 참</b><p data-i18n="gd.t1d">가방과 파우치에 더하는 데일리 팬덤 아이템</p></div>
+      <div class="tile t2 rv d1"><img src="assets/img/goods-plush.jpg" alt="" loading="lazy"><small>PLUSH</small><b data-i18n="gd.t2">인형 · 봉제 키링</b><p data-i18n="gd.t2d">캐릭터 IP를 가장 친근하게 만나는 방법</p></div>
+      <div class="tile solid t3 rv d2"><span class="big">Your<br>IP ✦</span><small>MADE FOR YOU</small><b data-i18n="gd.t3">맞춤 기획</b><p data-i18n="gd.t3d">시즌·IP별 라인업 구성</p></div>
+      <div class="tile t4 rv"><img src="assets/img/goods-pile.jpg" alt="" loading="lazy"><small>STRAP</small><b data-i18n="gd.t4">스트랩 · 소품</b></div>
+      <div class="tile t5 rv d1"><img src="assets/img/albums.jpg" alt="" loading="lazy"><small>COLLECTIBLES</small><b data-i18n="gd.t5">앨범 · 컬렉션 굿즈</b><p data-i18n="gd.t5d">바인더, 슬리브, 디스플레이 용품까지</p></div>
+      <div class="tile t6 rv d2"><img src="assets/img/holo2.jpg" alt="" loading="lazy"><small>ACRYLIC</small><b data-i18n="gd.t6">아크릴 · 홀로그램</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTNER ================= -->
+<section class="sec on-dark" id="partner">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="sec-num rv">05 — BUSINESS & PARTNERSHIP</span>
+        <h2 class="h-lg kw rv d1" data-i18n-html="pt.title">공간이 어디든,<br>포카버스가 됩니다.</h2>
+      </div>
+      <p class="lead rv d2" data-i18n="pt.lead">매장, 팝업스토어, 행사, 공연장까지. 공간의 성격과 방문객에 맞춰 기기·상품·운영을 함께 제안합니다.</p>
+    </div>
+    <div class="spaces">
+      <article class="space rv"><figure><img src="assets/img/store.jpg" alt="" loading="lazy"></figure><div><span>RETAIL</span><b data-i18n="pt.s1t">매장 · 리테일</b><p data-i18n="pt.s1d">체류 시간을 늘리는 매장 속 컬렉팅 존</p></div></article>
+      <article class="space rv d1"><figure><img src="assets/img/levelup.jpg" alt="" loading="lazy"></figure><div><span>POP-UP</span><b data-i18n="pt.s2t">팝업스토어</b><p data-i18n="pt.s2d">IP·브랜드 팝업의 한정 굿즈 판매 채널</p></div></article>
+      <article class="space rv d2"><figure><img src="assets/img/market.jpg" alt="" loading="lazy"></figure><div><span>EVENT</span><b data-i18n="pt.s3t">행사 · 전시</b><p data-i18n="pt.s3d">대규모 방문객을 위한 무인 판매 운영</p></div></article>
+      <article class="space rv d3"><figure><img src="assets/img/concert2.jpg" alt="" loading="lazy"></figure><div><span>LIVE</span><b data-i18n="pt.s4t">공연 · 페스티벌</b><p data-i18n="pt.s4d">현장의 감동을 카드 한 장으로 남기는 경험</p></div></article>
+    </div>
+
+    <div class="partner-row">
+      <div>
+        <span class="eyebrow rv">Partnership</span>
+        <h3 class="h-lg kw rv d1" style="margin-top:20px;font-size:clamp(28px,3.4vw,46px)" data-i18n-html="pt.ptitle">함께 만드는<br>새로운 팬덤 비즈니스.</h3>
+        <p class="lead rv d2" style="margin-top:20px" data-i18n="pt.plead">제품 구매부터 상품 공급, 공동 기획까지 필요한 형태로 협업합니다.</p>
+      </div>
+      <div class="ptypes">
+        <a href="#contact" class="ptype rv" data-type="machine"><span class="no">01</span><div><b data-i18n="pt.p1t">판매기기 도입 상담</b><p data-i18n="pt.p1d">기기 구매·설치 및 운영 방식 협의</p></div><svg><use href="#i-arrow"/></svg></a>
+        <a href="#contact" class="ptype rv d1" data-type="product"><span class="no">02</span><div><b data-i18n="pt.p2t">포토카드 · 굿즈 공급</b><p data-i18n="pt.p2d">콘텐츠·수량·유통 형태에 맞춘 상품 공급</p></div><svg><use href="#i-arrow"/></svg></a>
+        <a href="#contact" class="ptype rv d2" data-type="collab"><span class="no">03</span><div><b data-i18n="pt.p3t">IP · 브랜드 협업</b><p data-i18n="pt.p3d">팝업·행사·콜라보 굿즈 공동 기획</p></div><svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step rv"><span>STEP 01</span><b data-i18n="pt.st1">문의 접수</b><p data-i18n="pt.st1d">사업 형태와 공간 정보를 남겨주세요.</p></div>
+      <div class="step rv d1"><span>STEP 02</span><b data-i18n="pt.st2">상담 · 현장 확인</b><p data-i18n="pt.st2d">목표와 조건을 함께 정리합니다.</p></div>
+      <div class="step rv d2"><span>STEP 03</span><b data-i18n="pt.st3">맞춤 제안</b><p data-i18n="pt.st3d">기기·상품·운영 구성을 제안합니다.</p></div>
+      <div class="step rv d3"><span>STEP 04</span><b data-i18n="pt.st4">설치 · 운영</b><p data-i18n="pt.st4d">오픈 이후 운영까지 함께합니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <div class="contact-card rv">
+      <div class="contact-side">
+        <img src="assets/img/holo1.jpg" alt="" loading="lazy">
+        <span class="eyebrow">Let's create a new fandom world</span>
+        <h2 class="h-lg kw" data-i18n-html="ct.title">포카버스와 함께할<br>준비가 되셨나요?</h2>
+        <p class="lead" data-i18n="ct.lead">판매기기 도입, 상품 공급, 협업 제안까지. 내용을 남겨주시면 담당자가 확인 후 연락드립니다.</p>
+        <div class="contact-list">
+          <div><span>LANGUAGE</span><b>한국어 · English · 日本語 · 中文</b></div>
+          <div><span>RESPONSE</span><b data-i18n="ct.resp">담당자 확인 후 개별 회신</b></div>
+          <div><span>CONTACT</span><b data-i18n="ct.mail">대표 이메일 확정 후 반영</b></div>
+        </div>
+      </div>
+      <form class="form" id="form" novalidate>
+        <div class="full"><h3 class="h-md" data-i18n="ct.formT">사업 문의</h3></div>
+        <div class="field full">
+          <label data-i18n-html="ct.type">문의 유형<em>*</em></label>
+          <div class="chips" role="radiogroup">
+            <label><input type="radio" name="type" value="machine" required><span data-i18n="ct.o1">판매기기</span></label>
+            <label><input type="radio" name="type" value="product"><span data-i18n="ct.o2">포토카드·굿즈 공급</span></label>
+            <label><input type="radio" name="type" value="collab"><span data-i18n="ct.o3">IP·브랜드 협업</span></label>
+            <label><input type="radio" name="type" value="etc"><span data-i18n="ct.o4">기타</span></label>
+          </div>
+          <div class="msg" data-i18n="ct.eType">문의 유형을 선택해 주세요.</div>
+        </div>
+        <div class="field">
+          <label for="f-name" data-i18n-html="ct.name">담당자명<em>*</em></label>
+          <input id="f-name" name="name" required autocomplete="name">
+          <div class="msg" data-i18n="ct.eReq">필수 입력 항목입니다.</div>
+        </div>
+        <div class="field">
+          <label for="f-company" data-i18n="ct.company">회사 / 브랜드명</label>
+          <input id="f-company" name="company" autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="f-email" data-i18n-html="ct.email">이메일<em>*</em></label>
+          <input id="f-email" name="email" type="email" required autocomplete="email" inputmode="email">
+          <div class="msg" data-i18n="ct.eMail">올바른 이메일 주소를 입력해 주세요.</div>
+        </div>
+        <div class="field">
+          <label for="f-phone" data-i18n="ct.phone">연락처</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+        </div>
+        <div class="field full">
+          <label for="f-country" data-i18n="ct.country">국가 / 지역</label>
+          <select id="f-country" name="country">
+            <option value="KR" data-i18n="ct.c1">대한민국</option>
+            <option value="JP" data-i18n="ct.c2">일본</option>
+            <option value="CN" data-i18n="ct.c3">중국</option>
+            <option value="ETC" data-i18n="ct.c4">기타</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="f-msg" data-i18n-html="ct.msg">문의 내용<em>*</em></label>
+          <textarea id="f-msg" name="message" required data-i18n-ph="ct.msgPh" placeholder="설치 희망 공간, 예상 수량, 일정 등을 적어주시면 더 정확하게 안내드립니다."></textarea>
+          <div class="msg" data-i18n="ct.eReq">필수 입력 항목입니다.</div>
+        </div>
+        <div class="field full">
+          <label class="consent"><input type="checkbox" name="agree" required><span data-i18n="ct.agree">개인정보 수집·이용(담당자명, 연락처, 이메일)에 동의합니다. 수집된 정보는 문의 응대 목적으로만 사용됩니다.</span></label>
+          <div class="msg" data-i18n="ct.eAgree">개인정보 수집·이용에 동의해 주세요.</div>
+        </div>
+        <div class="full form-foot">
+          <span class="note" data-i18n="ct.note">* 시연용 양식입니다. 실제 접수는 서버 연동 후 가능합니다.</span>
+          <button type="submit" class="btn btn-ink"><span data-i18n="ct.submit">문의 보내기</span><svg><use href="#i-arrow"/></svg></button>
+        </div>
+        <div class="form-done" role="status" aria-live="polite">
+          <div class="ok"><svg><use href="#i-check"/></svg></div>
+          <h3 class="h-md" data-i18n="ct.doneT">문의가 접수되었습니다.</h3>
+          <p data-i18n="ct.doneD">담당자가 확인 후 남겨주신 연락처로 회신드리겠습니다.</p>
+          <button type="button" class="btn btn-line" id="form-reset"><span data-i18n="ct.again">새 문의 작성</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <a href="#top" class="logo" style="align-items:flex-start"><b>pocaverse</b><small style="padding-left:2px">FANDOM UNIVERSE</small></a>
+        <p data-i18n="ft.desc">K-POP·애니메이션 포토카드, 캐릭터 굿즈, 포토카드 판매기기를 연결하는 팬덤 컬렉팅 브랜드.</p>
+      </div>
+      <div class="ft-col"><h4>MENU</h4>
+        <a href="#brand" data-i18n="nav.brand">브랜드</a><a href="#machine" data-i18n="nav.machine">판매기기</a><a href="#photocard" data-i18n="nav.photocard">포토카드</a><a href="#goods" data-i18n="nav.goods">굿즈</a>
+      </div>
+      <div class="ft-col"><h4>BUSINESS</h4>
+        <a href="#partner" data-i18n="nav.partner">사업제휴</a><a href="#contact" data-i18n="nav.contact">문의하기</a>
+      </div>
+      <div class="ft-col"><h4>LANGUAGE</h4>
+        <button type="button" data-lang="ko">한국어</button><button type="button" data-lang="en">English</button><button type="button" data-lang="ja">日本語</button><button type="button" data-lang="zh">中文</button>
+      </div>
+    </div>
+    <div class="ft-big" aria-hidden="true">pocaverse</div>
+    <div class="ft-bot">
+      <span data-i18n="ft.info">기업 정보 · 주소 · 대표 이메일은 확정 후 반영됩니다.</span>
+      <span>© 2026 POCAVERSE. ALL RIGHTS RESERVED.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#top" class="to-top" id="toTop" aria-label="Back to top"><svg><use href="#i-up"/></svg></a>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
